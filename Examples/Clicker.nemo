@@ -1,0 +1,28 @@
+say>
+"Clicker. Fully written in NemoScript!"
+<exit
+var>
+num
+clicks
+0
+<exit
+while>
+true
+=
+true
+say>
+""
+<exit
+say>
+"Clicks: "
+<exit
+say>
+clicks
+<exit
+waitkey
+varcalc>
+clicks
++
+1
+<exit
+<endwhile

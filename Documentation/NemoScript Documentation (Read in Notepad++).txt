@@ -1,0 +1,256 @@
+NemoScript Programming Language Documentation.
+
+Function "say>"
+	This function prints a line/variable to the console
+
+	Formula:			Python equivalent:		C# equivalent:
+		say>				print(args)				Console.WriteLine(args);
+		*args*
+		<exit
+	
+	Example:				Эквивалент на Python:			C# equivalent:
+		say>					print('Hello, World!')			Console.WriteLine("Hello, World!");
+		"Hello, World!"
+		<exit
+	Output:
+		Hello, World!
+	
+	- For a text output you need to use " symbol in the begining and at the end of the args.
+	- For a variables output you doesn't to use " symbol.
+	
+Function "var>" (Variable creation):
+	This function creates a variable.
+	
+	Formula:					Эквивалент на Python:						C# equivalent:
+		var>						*variable name* = *variable value*			*data type* *variable name* = *variable value*;
+		*data type*
+		*variable name*
+		*variable value*
+		<exit
+		
+	Example:			Python equivalent:		C# equivalent:
+		var>				i = 42					int i = 42;
+		num					print(i)				Console.WriteLine(i);
+		i
+		42
+		<exit
+		say>
+		i
+		<exit
+	Output:
+		42
+		
+	- In NemoScript there is a 4 data types. num, numf, text and boolean.
+	-- num contains an integer number.
+	-- numf conains an float number.
+	--- IMPORTANT: The dot is the decimal separator in NemoScript.
+	-- text contains a text (string).
+	--- IMPORTANT: In the variable value you need to use " symbol at the end and the begining.
+	-- boolean contains a true and false values.
+	- At the creation of variable you can put other variable in the value. So the value of the new variable will correspond to another variable.
+	- At the creation of variable you can put "waitinput" key word. So, variable will be equal to what will user put to variable.
+	
+Function "varcalc>"
+	This function does the math and puts the result to a variable.
+	
+	Formula:				Python/C# equivalent:
+		varcalc>				*variable* = *variable* *math operation* *number/variable*;
+		*variable*
+		*math operation*
+		*number/variable*
+		<exit
+		
+	Example:			Python equivalent:			C# equivalent:
+		var>				с = 32						int c = 32;
+		num					с += 10						c += 10;
+		c					print(c)					Console.WriteLine(c);
+		32
+		<exit
+		varcalc>
+		c
+		+
+		10
+		<exit
+		say>
+		c
+		<exit
+	Output:
+		42
+		
+	- This function can do the math ONLY to variable. (i mean variable + | - | * | / to number or variable).
+	- IMPORTANT: numf и num are not compared. For example, if you need to multiply numf, you must to multiply them by numf (i mean the valid operation is 3,4 * 1,0. 3,4 * 1 is invalid operation)
+
+Function "sleep>":
+	This function temporary stops the code.
+	
+	Formula:					Эквивалент на Python:				C# equivalent:
+		sleep>						import time							Thread.Sleep(*variable/number*);
+		*variable/number*			sleep(*число/переменная*)
+		<exit
+		
+	Example:					Эквивалент на Python:				C# equivalent:
+		sleep>						import time							Thread.Sleep(5000);
+		5000						sleep(5)							Console.WriteLine("Waited 5 seconds");
+		<exit						print('waited 5 seconds')
+		say>
+		"waited 5 seconds"
+		<exit
+	Output:
+		waited 5 seconds
+	
+	- In sleep> puts numbers as a miliseconds.
+	- sleep> accepts only num values.
+	
+Сonditional statement "if>":
+	Conditional statement runs the code if specified statement is true
+	
+	Formula:										Python equivalent:																							C# equivalent:
+		if>												if *numbers/text/boolean values/variables* *< | > | == | !=* *numbers/text/boolean values/variables*:			if(*numbers/text/boolean values/variables* *< | > | == | !=* *numbers/text/boolean values/variables*)
+		*numbers/text/boolean values/variables*				...																											{
+		*< | > | = | !=*									...																												...
+		*numbers/text/boolean values/variables*				...																												...
+		...																																									...																																						
+		...																																								}
+		...
+		<endif
+		
+	Example:							Python equivalent:									C# equivalent:
+		var>								i = 5												int i = 5;
+		num									if i < 10:											if(i < 10)
+		i										print('variable i is less than 10')				{
+		5																							Console.WriteLine("variable i is less than 10");
+		<exit																					}
+		if>
+		i
+		<
+		10
+		say>
+		"variable i is less than 10"
+		<exit
+		<endif
+	Output:
+		variable i is less than 10
+		
+	- != means not equals.
+	- else and else if operators does not exists.
+	- Data types of first variable/element must correspond with second variable/element data types.
+	- numf and num are not comparing (i mean, 3,14 < 5,0 is a valid operation. 3,14 < 5 is invalid).
+	- if> always ends with <endif.
+	
+Циклы "while>":
+	Cycle keeps running the code until the specified statement will equal to false
+	
+	Formula:										Эквивалент на Python:																								C# equivalent:
+		while>											while *numbers/text/boolean values/variables* *< | > | == | !=* *numbers/text/boolean values/variables*:			while(*numbers/text/boolean values/variables* *< | > | == | !=* *numbers/text/boolean values/variables*)
+		*numbers/text/boolean values/variables*				...																												{
+		*< | > | = | !=*									...																													...
+		*numbers/text/boolean values/variables*				...																													...
+		...																																										...
+		...																																									}
+		...
+		<endwhile
+		
+	Example:			Python equivalent:		C# equivalent:
+		var>				i = 0					int i = 0;
+		num					while i < 5:			while(i < 5)
+		i						print(i)			{
+		0						i += 1					Console.WriteLine(i);
+		<exit											i++;
+		while>										}
+		i
+		<
+		5
+		say>
+		i
+		<exit
+		varcalc>
+		i
+		+
+		1
+		<exit
+		<endwhile
+	Output:
+		0
+		1
+		2
+		3
+		4
+		
+	- != means not equals.
+	- do operator does not exist.
+	- Data types of first variable/element must correspond with second variable/element data types.
+	- numf and num are not comparing (i mean, 3,14 < 5,0 is a valid operation. 3,14 < 5 is invalid).
+	- while> always ends with <endwhile.
+	
+Editing variable values:
+	Edits variable values.
+	
+	Formula:							Python/C# equivalent:
+		*variable name*>					*variable name* = *new variable value*;
+		*new variable value*
+		<*variable name*
+		
+	Example:			Python equivalent:			C# equivalent:
+		var>				i = 32						int i = 32;
+		num					i = 42						i = 42;
+		i					print(i)					Console.WriteLine(i);
+		32
+		<exit
+		i>
+		42
+		<i
+		say>
+		i
+		<exit
+	Output:
+		42
+		
+	- In the new value of variable can be used "waitinput" key word. Then, the new value of a variable will be equals to what will put an user.
+	- In the new value of variable can be used other variables.
+	
+Key word "waitinput":
+	This key word makes program wait input from an user.
+	
+	Example:			Python equivalent:		C# equivalent:
+		waitinput			input()					Console.ReadLine();
+		
+Key word "waitkey":
+	This key word makes program wait any key input from an user.
+	
+	Example:			Эквивалент на Python:			C# equivalent:
+		waitkey			import readchar					Console.ReadKey();
+						readchar.readchar()
+
+Key word "engprog":
+	Ends the program.
+	
+	Example:					Python equivalent:				C# equivalent:
+		say>						print('Hello, World!')			Console.WriteLine("Hello, World!");
+		"Hello, World!"				exit()							Environment.Exit(0);
+		<exit						print('Bye, World!:C')			Console.WriteLine("Bye, World!:C");
+		endprog
+		say>
+		"Bye, World!:C"
+		<exit
+	Output:
+		Hello, World!
+		
+Commands in NemoScript KIDE:
+	"run":
+		Runs code.
+	"new":
+		Deletes the code and create a new one.
+	"clear":
+		Clears a console.
+	"load "НАЗВАНИЕ ФАЙЛА"":
+		Loads a file with .nemo extension.
+	"save "НАЗВАНИЕ ФАЙЛА"":
+		Saves the code with a file with .nemo extension.
+	"run "НАЗВАНИЕ ФАЙЛА"":
+		Runs code from a file with .nemo extension
+	"remove СТРОКА КОДА":
+		Removes specified code line.
+	"edit СТРОКА КОДА":
+		Permitting to edit one of the code lines.
+		
+Copyright leksev software labs, 2025.

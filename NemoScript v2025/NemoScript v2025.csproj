@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>NemoScript_v2025</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Title>NemoScript</Title>
+    <Authors>leksevzip</Authors>
+    <Company>leksev software labs</Company>
+    <Product>NemoScript</Product>
+    <Description>NemoScript is a "programming language" that i made in 2 weeks as an entertainment for myself.
+If you want to integrate my language to your code (idk why) you can use this package.</Description>
+    <Copyright>leksevzip</Copyright>
+    <PackageIcon>NemoScript.png</PackageIcon>
+    <PackageId>nemoscript2025</PackageId>
+    <Version>1.0.0-beta</Version>
+  </PropertyGroup>
+
+</Project>

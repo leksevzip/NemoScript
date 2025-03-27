@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\flish\\Desktop\\leksev software labs\\NemoScript v2025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35809FC9-F376-4159-94E8-8F5E0374016F}|NemoScript v2025\\NemoScript v2025.csproj|c:\\users\\flish\\desktop\\leksev software labs\\nemoscript v2025\\nemoscript v2025\\compiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35809FC9-F376-4159-94E8-8F5E0374016F}|NemoScript v2025\\NemoScript v2025.csproj|solutionrelative:nemoscript v2025\\compiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35809FC9-F376-4159-94E8-8F5E0374016F}|NemoScript v2025\\NemoScript v2025.csproj|c:\\users\\flish\\desktop\\leksev software labs\\nemoscript v2025\\nemoscript v2025\\nemoscript v2025.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{35809FC9-F376-4159-94E8-8F5E0374016F}|NemoScript v2025\\NemoScript v2025.csproj|solutionrelative:nemoscript v2025\\nemoscript v2025.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NemoScript v2025",
+              "DocumentMoniker": "C:\\Users\\flish\\Desktop\\leksev software labs\\NemoScript v2025\\NemoScript v2025\\NemoScript v2025.csproj",
+              "RelativeDocumentMoniker": "NemoScript v2025\\NemoScript v2025.csproj",
+              "ToolTip": "C:\\Users\\flish\\Desktop\\leksev software labs\\NemoScript v2025\\NemoScript v2025\\NemoScript v2025.csproj",
+              "RelativeToolTip": "NemoScript v2025\\NemoScript v2025.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-26T05:19:29.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Compiler.cs",
+              "DocumentMoniker": "C:\\Users\\flish\\Desktop\\leksev software labs\\NemoScript v2025\\NemoScript v2025\\Compiler.cs",
+              "RelativeDocumentMoniker": "NemoScript v2025\\Compiler.cs",
+              "ToolTip": "C:\\Users\\flish\\Desktop\\leksev software labs\\NemoScript v2025\\NemoScript v2025\\Compiler.cs",
+              "RelativeToolTip": "NemoScript v2025\\Compiler.cs",
+              "ViewState": "AgIAAIAHAAAAAAAAAAAAAJEHAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:28:20.852Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

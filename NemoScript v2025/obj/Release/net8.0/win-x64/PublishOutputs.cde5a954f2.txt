@@ -1,0 +1,2 @@
+C:\Users\flish\Desktop\leksev software labs\NemoScript v2025\NemoScript v2025\bin\Release\net8.0\publish\win-x64\NemoScript v2025.pdb
+C:\Users\flish\Desktop\leksev software labs\NemoScript v2025\NemoScript v2025\bin\Release\net8.0\publish\win-x64\NemoScript v2025.exe

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "wXkDWgSb7CA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\flish\\Desktop\\leksev software labs\\NemoScript v2025\\NemoScript v2025\\NemoScript v2025.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\flish\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.14\\microsoft.net.illink.tasks.8.0.14.nupkg.sha512",
+    "C:\\Users\\flish\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\8.0.14\\microsoft.netcore.app.runtime.linux-x64.8.0.14.nupkg.sha512",
+    "C:\\Users\\flish\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\8.0.14\\microsoft.aspnetcore.app.runtime.linux-x64.8.0.14.nupkg.sha512",
+    "C:\\Users\\flish\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\8.0.14\\microsoft.netcore.app.host.linux-x64.8.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

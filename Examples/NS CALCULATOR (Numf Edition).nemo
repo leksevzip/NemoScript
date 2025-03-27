@@ -1,0 +1,102 @@
+say>
+"The NemoScript Calculator! (Numf Edition)"
+<exit
+say>
+"Write first numf: "
+<exit
+var>
+numf
+first_numf
+waitinput
+<exit
+say>
+"Write second numf: "
+<exit
+var>
+numf
+second_numf
+waitinput
+<exit
+say>
+"Write math operation ( + | - | * | / ): "
+<exit
+var>
+text
+math_operation
+waitinput
+<exit
+if>
+math_operation
+=
+"+"
+varcalc>
+first_numf
++
+second_numf
+<exit
+say>
+"Result: "
+<exit
+say>
+first_numf
+<exit
+<endif
+if>
+math_operation
+=
+"-"
+varcalc>
+first_numf
+-
+second_numf
+<exit
+say>
+"Result: "
+<exit
+say>
+first_numf
+<exit
+<endif
+if>
+math_operation
+=
+"*"
+varcalc>
+first_numf
+*
+second_numf
+<exit
+say>
+"Result: "
+<exit
+say>
+first_numf
+<exit
+<endif
+if>
+math_operation
+=
+"/"
+if>
+second_numf
+=
+0,0
+say>
+"Can't divide by zero!"
+<exit
+waitkey
+endprog
+<endif
+varcalc>
+first_numf
+/
+second_numf
+<exit
+say>
+"Result: "
+<exit
+say>
+first_numf
+<exit
+<endif
+waitkey

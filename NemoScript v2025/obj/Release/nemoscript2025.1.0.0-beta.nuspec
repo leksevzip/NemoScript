@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>nemoscript2025</id>
+    <version>1.0.0-beta</version>
+    <title>NemoScript</title>
+    <authors>leksevzip</authors>
+    <icon>NemoScript.png</icon>
+    <description>NemoScript is a "programming language" that i made in 2 weeks as an entertainment for myself.
+If you want to integrate my language to your code (idk why) you can use this package.</description>
+    <copyright>leksevzip</copyright>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+    <contentFiles>
+      <files include="any/net8.0/NemoScript.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\flish\OneDrive\Desktop\leksev software labs\NemoScript v2025\NemoScript v2025\bin\Release\net8.0\win-x64\NemoScript v2025.runtimeconfig.json" target="lib\net8.0\NemoScript v2025.runtimeconfig.json" />
+    <file src="C:\Users\flish\OneDrive\Desktop\leksev software labs\NemoScript v2025\NemoScript v2025\bin\Release\net8.0\win-x64\NemoScript v2025.dll" target="lib\net8.0\NemoScript v2025.dll" />
+    <file src="C:\Users\flish\OneDrive\Desktop\leksev software labs\NemoScript v2025\NemoScript v2025\NemoScript.ico" target="content\NemoScript.ico" />
+    <file src="C:\Users\flish\OneDrive\Desktop\leksev software labs\NemoScript v2025\NemoScript v2025\NemoScript.ico" target="contentFiles\any\net8.0\NemoScript.ico" />
+    <file src="C:\Users\flish\Downloads\NemoScript.png" target="\NemoScript.png" />
+  </files>
+</package>

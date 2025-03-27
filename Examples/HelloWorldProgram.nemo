@@ -1,0 +1,58 @@
+say>
+"The Hello World! Program"
+<exit
+say>
+"Fully written on NemoScript"
+<exit
+say>
+"Write any num: "
+<exit
+var>
+num
+thenum
+waitinput
+<exit
+var>
+num
+i
+0
+<exit
+var>
+text
+smth
+""
+<exit
+while>
+i
+<
+thenum
+say>
+"Write smth: "
+<exit
+smth>
+waitinput
+<smth
+if>
+smth
+=
+"Bye, World!"
+say>
+"Bye, world!:C"
+<exit
+endprog
+<endif
+say>
+"Text: "
+<exit
+say>
+smth
+<exit
+varcalc>
+i
++
+1
+<exit
+<endwhile
+say>
+"Bye, World!:C"
+<exit
