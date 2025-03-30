@@ -4,10 +4,10 @@ Fully written on C# programming language (kind of). This project i made in sprin
 > That language uses ```.nemo``` file extension and can only be used for console applications. It can't compile apps to .exe or any binary file.
 
 ## Documentation
-Documentation is avaliable [here](../Documentation/NemoScript Documentation (Read in Notepad++).txt)
+Documentation is avaliable [here](https://github.com/leksevzip/NemoScript/blob/main/Documentation/NemoScript%20Documentation.%20Read%20in%20Notepad%2B%2B.txt)
 
 ## Code Editor
-You can use my NemoScript KIDE but i ***highly*** recommend to use [Notepad++](https://notepad-plus-plus.org/downloads/) with NS Syntax.
+You can use my [NemoScript KIDE](https://github.com/leksevzip/NemoScript-KIDE) but i ***highly*** recommend to use [Notepad++](https://notepad-plus-plus.org/downloads/) with [NemoScript Syntax](https://github.com/leksevzip/NemoScript/blob/main/Notepad%2B%2B%20Syntax/NemoScript.xml)
 
 ## Installation and getting started
 Installation is actually pretty simple as downloading any other windows apps.
@@ -85,4 +85,4 @@ say>
 "Bye, World!:C"
 <exit
 ```
-Other examples are [here](../Examples/)
+More examples are [here](https://github.com/leksevzip/NemoScript/tree/main/Examples)
