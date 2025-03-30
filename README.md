@@ -12,13 +12,13 @@ You can use my [NemoScript KIDE](https://github.com/leksevzip/NemoScript-KIDE) b
 ## Installation and getting started
 Installation is actually pretty simple as downloading any other windows apps.
 ## Windows
-1. Download the ```nemoscript-beta-win-x64.exe``` on your PC
-2. Rename it to ```NemoScript.exe```
-3. Open command line and invoke it from there
+1. Download the ```nemoscript-beta-win-x64.zip``` on your PC
+2. Unzip it
+3. Open command line and invoke ```NemoScript.exe``` from there
 ## Linux
-1. Download the ```nemoscript-beta-linux-x64``` on your PC
-2. Rename it to ```NemoScript```
-3. Open terminal and invoke it from there
+1. Download the ```nemoscript-beta-linux-x64.zip``` on your PC
+2. Unzip it
+3. Open terminal and invoke ```NemoScript``` from there
 
 When invoking NemoScript you need to specify the script file.  
 > ```NemoScript.exe [FileName].nemo```
