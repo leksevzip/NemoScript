@@ -1,10 +1,10 @@
 # NemoScript
-Fully written on C# programming language (kind of). This project i made in spring break. Dont expect too much from this, it's been made just for fun.
+Fully written on C# programming language (kind of). This project i made in spring break. Don't expect too much from this, it's been made just for fun.
 
 > That language uses ```.nemo``` file extension and can only be used for console applications. It can't compile apps to .exe or any binary file.
 
 ## Documentation
-Documentation is avaliable here
+Documentation is avaliable [here](Documentation/NemoScript Documentation (Read in Notepad++).txt)
 
 ## Code Editor
 You can use my NemoScript KIDE but i ***highly*** recommend to use [Notepad++](https://notepad-plus-plus.org/downloads/) with NS Syntax.
@@ -85,4 +85,4 @@ say>
 "Bye, World!:C"
 <exit
 ```
-
+Other examples are [here](Examples/)
