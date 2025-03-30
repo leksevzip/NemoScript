@@ -4,7 +4,7 @@ Fully written on C# programming language (kind of). This project i made in sprin
 > That language uses ```.nemo``` file extension and can only be used for console applications. It can't compile apps to .exe or any binary file.
 
 ## Documentation
-Documentation is avaliable [here](Documentation/NemoScript Documentation (Read in Notepad++).txt)
+Documentation is avaliable [here](../Documentation/NemoScript Documentation (Read in Notepad++).txt)
 
 ## Code Editor
 You can use my NemoScript KIDE but i ***highly*** recommend to use [Notepad++](https://notepad-plus-plus.org/downloads/) with NS Syntax.
@@ -85,4 +85,4 @@ say>
 "Bye, World!:C"
 <exit
 ```
-Other examples are [here](Examples/)
+Other examples are [here](../Examples/)
