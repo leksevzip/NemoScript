@@ -8,7 +8,7 @@ Function "say>"
 		*args*
 		<exit
 	
-	Example:				Эквивалент на Python:			C# equivalent:
+	Example:				Python equivalent:				C# equivalent:
 		say>					print('Hello, World!')			Console.WriteLine("Hello, World!");
 		"Hello, World!"
 		<exit
@@ -221,7 +221,7 @@ Key word "waitkey":
 		waitkey			import readchar					Console.ReadKey();
 						readchar.readchar()
 
-Key word "engprog":
+Key word "endprog":
 	Ends the program.
 	
 	Example:					Python equivalent:				C# equivalent:
@@ -242,15 +242,15 @@ Commands in NemoScript KIDE:
 		Deletes the code and create a new one.
 	"clear":
 		Clears a console.
-	"load "НАЗВАНИЕ ФАЙЛА"":
+	"load "FILE NAME"":
 		Loads a file with .nemo extension.
-	"save "НАЗВАНИЕ ФАЙЛА"":
+	"save "FILE NAME"":
 		Saves the code with a file with .nemo extension.
-	"run "НАЗВАНИЕ ФАЙЛА"":
+	"run "FILE NAME"":
 		Runs code from a file with .nemo extension
-	"remove СТРОКА КОДА":
+	"remove LINE OF CODE":
 		Removes specified code line.
-	"edit СТРОКА КОДА":
+	"edit LINE OF CODE":
 		Permitting to edit one of the code lines.
 		
 Copyright leksev software labs, 2025.
