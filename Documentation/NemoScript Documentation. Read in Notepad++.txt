@@ -217,7 +217,7 @@ Key word "waitinput":
 Key word "waitkey":
 	This key word makes program wait any key input from an user.
 	
-	Example:			Эквивалент на Python:			C# equivalent:
+	Example:			Python equivalent:			C# equivalent:
 		waitkey			import readchar					Console.ReadKey();
 						readchar.readchar()
 
