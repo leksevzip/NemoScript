@@ -34,7 +34,10 @@ second_num>
 waitinput
 <second_num
 say>
-"Put math operation ( + | - | * | / | ^ ): "
+"(P.S. Factorial doesn't use the second num)"
+<exit
+say>
+"Put math operation ( + | - | * | / | ^ | !): "
 <exit
 math_operation>
 waitinput
@@ -142,6 +145,52 @@ say>
 <exit
 say>
 first_num
+<exit
+<endif
+if>
+math_operation
+=
+"!"
+var>
+num
+first_factorial_multiplier
+1
+<exit
+var>
+num
+second_factorial_multiplier
+2
+<exit
+var>
+num
+end_result
+first_num
+<exit
+varcalc>
+end_result
++
+1
+<exit
+while>
+second_factorial_multiplier
+!=
+end_result
+varcalc>
+first_factorial_multiplier
+*
+second_factorial_multiplier
+<exit
+varcalc>
+second_factorial_multiplier
++
+1
+<exit
+<endwhile
+say>
+"Result: "
+<exit
+say>
+first_factorial_multiplier
 <exit
 <endif
 waitkey
